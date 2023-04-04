@@ -1,20 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;700;800&display=swap');
 
 /* global */
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-
 }
 
 body {
     font-family: 'Heebo', sans-serif;
-    max-width: 1152px;
-
+    max-width: 1200px;
+    margin: auto;
 }
 
+
 /* header */
+
 nav {
     height: 100px;
     margin-right: 40px;
@@ -29,7 +31,9 @@ a {
     font-weight: 500;
 }
 
+
 /* header */
+
 
 /* main */
 
@@ -39,6 +43,7 @@ a {
     margin-top: 128px;
     flex-flow: row wrap-reverse;
 }
+
 
 /* Main left */
 
@@ -55,7 +60,6 @@ a {
     font-weight: 700px;
 }
 
-
 .button button {
     border: 0;
     width: 208px;
@@ -69,24 +73,25 @@ a {
     font-size: 20px;
 }
 
+
 /* Main Right */
 
 .intro .right {
     max-width: 300px;
     margin: auto;
-
 }
 
 .intro .right img {
     width: 250px;
     height: 250px;
-
 }
 
+
 /* post */
+
 .post {
     background: #EDF7FA;
-    height: 400px ;
+    padding-bottom: 98px;
 }
 
 .fixboard {
@@ -94,7 +99,6 @@ a {
     margin: 0 148px;
     margin-top: 128px;
     flex-flow: row wrap;
-
 }
 
 .post .top {
@@ -104,10 +108,6 @@ a {
     width: 100%;
 }
 
-.top .tag1{
-
-}
-
 .post .bottom {
     display: flex;
     flex-flow: row wrap;
@@ -115,16 +115,100 @@ a {
     justify-content: space-between;
 }
 
-.bottom .bottom-in-left {
+.bottom-in-left {
     width: 418px;
     height: 295px;
     background: #FFFFFF;
     border-radius: 4px;
+    padding: 20px;
 }
 
-.bottom .bottom-in-right {
+.bottom-in-right {
     width: 418px;
     height: 295px;
     background: #FFFFFF;
     border-radius: 4px;
+    padding: 20px;
+}
+
+.bl2 {
+    display: -webkit-inline-box;
+}
+
+.br2 {
+    display: -webkit-inline-box;
+}
+
+.bottom-in-left div {
+    margin: 6px 0;
+}
+
+.bottom-in-right div {
+    margin: 6px 0;
+}
+
+
+/* Featured works */
+
+.Featured .fixboard {
+    display: flex;
+    margin: 0 148px;
+    margin-top: 60px;
+}
+
+.Featured1,
+.Featured2,
+.Featured3 {
+    display: flex;
+    flex-flow: wrap;
+    margin-top: 60px;
+}
+
+.detail {
+    margin-left: 40px;
+    max-width: 520px;
+}
+
+.detail div {
+    margin-bottom: 10px;
+}
+
+.detail2 {
+    display: -webkit-inline-box;
+}
+
+.detail2-1 {
+    background: #142850;
+    border-radius: 16px;
+    color: #EDF7FA;
+    width: 62px;
+    height: 25px;
+    font-weight: 900;
+}
+
+.detail2-2 {
+    color: #8695A4;
+}
+
+
+/* footer */
+
+.footer {
+    margin: 0 148px;
+    margin-top: 128px;
+}
+
+.copy {
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+.icon {
+    max-width: 220px;
+    margin: auto;
+}
+
+i {
+    margin: 0 10px;
 }
